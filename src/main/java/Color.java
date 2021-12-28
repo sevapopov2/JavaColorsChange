@@ -10,12 +10,10 @@ public class Color {
     public static final String WHITE_COLOR = "\u001B[37m";
 
     public static void main(String[] args) {
-        //This is the test function, will be rewritten soon.
-        System.out.println( RED_COLOR +"I am a red boy! Look!" + COLOR_RESET);
-        System.out.println(BLACK_COLOR + "And this is a black color!" + COLOR_RESET);
+        changeColor(RED_COLOR, "Hey dudes! This is another test! Let's find out if it works!");
     }
 
-    public void changeColor(String color, String text) {
+    public static void changeColor(String color, String text) {
         System.out.println(color + text + COLOR_RESET);
     }
 }
