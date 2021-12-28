@@ -14,4 +14,8 @@ public class Color {
         System.out.println( RED_COLOR +"I am a red boy! Look!" + COLOR_RESET);
         System.out.println(BLACK_COLOR + "And this is a black color!" + COLOR_RESET);
     }
+
+    public void changeColor(String color, String text) {
+        System.out.println(color + text + COLOR_RESET);
+    }
 }
