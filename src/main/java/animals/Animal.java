@@ -1,4 +1,4 @@
-
+package animals;
 
 public class Animal {
     //Constructor variables deffinition.

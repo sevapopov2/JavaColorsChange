@@ -1,3 +1,4 @@
+package colors;
 public class Color {
     //colors deffinition.
     public static final String COLOR_RESET = "\u001B[0m";
