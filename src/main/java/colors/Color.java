@@ -11,10 +11,10 @@ public class Color {
     public static final String WHITE_COLOR = "\u001B[37m";
 
     public static void main(String[] args) {
-        changeColor(BLACK_COLOR, "That's not really funny, but to be honnest, nothing really works...");
+        writeColoredText(BLACK_COLOR, "That's not really funny, but to be honnest, nothing really works...");
     }
 
-    public static void changeColor(String color, String text) {
+    public static void writeColoredText(String color, String text) {
         System.out.println(color + text + COLOR_RESET);
     }
 }
