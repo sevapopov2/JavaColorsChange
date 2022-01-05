@@ -2,7 +2,7 @@ package animals;
 
 import colors.TextColorChange;
 
-public abstract class Animal implements TextColorChange{
+public class Animal implements TextColorChange{
     //Constructor variables deffinition.
     int height;
     int weight;
@@ -14,7 +14,6 @@ public abstract class Animal implements TextColorChange{
         this.age = age;
     }
 
-    @Override
     public void writeColoredText(String color, String text) {
         System.out.println(color + text + COLOR_RESET);
     }
