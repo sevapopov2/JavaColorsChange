@@ -2,7 +2,7 @@ package animals;
 
 import colors.TextColorChange;
 
-public class Animal implements TextColorChange{
+public abstract class Animal implements TextColorChange{
     //Constructor variables deffinition.
     String name;
     String height;
