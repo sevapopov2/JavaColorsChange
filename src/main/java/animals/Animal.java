@@ -1,6 +1,8 @@
 package animals;
 
-public class Animal {
+import colors.Color;
+
+public class Animal implements Color{
     //Constructor variables deffinition.
     String name;
     String height;
@@ -13,4 +15,12 @@ public class Animal {
         this.weight = weight;
         this.age = age;
     }
+
+    @Override
+    public void writeColoredText(String color, String text) {
+        System.out.println(color + text + COLOR_RESET);
+        
+    }
+
+    
 }

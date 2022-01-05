@@ -10,7 +10,5 @@ public interface Color {
     public static final String PURPLE_COLOR = "\u001B[35m";
     public static final String WHITE_COLOR = "\u001B[37m";
 
-    public static void writeColoredText(String color, String text) {
-        System.out.println(color + text + COLOR_RESET);
-    }
+    public void writeColoredText(String color, String text);
 }
