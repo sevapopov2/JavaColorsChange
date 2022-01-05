@@ -19,8 +19,6 @@ public abstract class Animal implements TextColorChange{
     @Override
     public void writeColoredText(String color, String text) {
         System.out.println(color + text + COLOR_RESET);
-        
     }
 
-    
 }
