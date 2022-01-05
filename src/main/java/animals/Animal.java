@@ -1,8 +1,6 @@
 package animals;
 
-import colors.TextColorChange;
-
-public class Animal implements TextColorChange{
+public abstract class Animal {
     //Constructor variables deffinition.
     int height;
     int weight;
@@ -12,10 +10,6 @@ public class Animal implements TextColorChange{
         this.height = height;
         this.weight = weight;
         this.age = age;
-    }
-
-    public void writeColoredText(String color, String text) {
-        System.out.println(color + text + COLOR_RESET);
     }
 
 }
