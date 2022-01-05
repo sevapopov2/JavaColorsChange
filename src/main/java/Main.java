@@ -5,4 +5,4 @@ public class Main {
         Cat murka = new Cat(250, 3700, 1);
         murka.hideFromDaddy(true);
     }
-}
+}       
