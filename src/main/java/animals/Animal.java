@@ -4,13 +4,11 @@ import colors.TextColorChange;
 
 public abstract class Animal implements TextColorChange{
     //Constructor variables deffinition.
-    String name;
-    String height;
-    String weight;
-    String age;
+    int height;
+    int weight;
+    int age;
 
-    public Animal(String name, String height, String weight, String age) {
-        this.name = name;
+    public Animal(int height, int weight, int age) {
         this.height = height;
         this.weight = weight;
         this.age = age;
