@@ -1,5 +1,5 @@
 package colors;
-public interface Color {
+public interface TextColorChange {
     //colors deffinition.
     public static final String COLOR_RESET = "\u001B[0m";
     public static final String BLACK_COLOR = "\u001B[30m";

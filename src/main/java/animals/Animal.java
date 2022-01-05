@@ -1,8 +1,8 @@
 package animals;
 
-import colors.Color;
+import colors.TextColorChange;
 
-public class Animal implements Color{
+public class Animal implements TextColorChange{
     //Constructor variables deffinition.
     String name;
     String height;
