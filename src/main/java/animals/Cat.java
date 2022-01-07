@@ -8,11 +8,11 @@ public class Cat extends Animal implements TextColorChange{
         super(height, weight, age);
     }
 
-    public boolean hideFromDaddy(boolean hide) {
+    public boolean hideFromHuman(boolean hide) {
         if (hide) {
-            writeColoredText(BLACK_COLOR, "I hided from him! Hahahaha! I am in a black mask!");
+            writeColoredText(BLACK_COLOR, "I am a cat! I hided from human! I am in black shadows!");
         } else {
-            writeColoredText(RED_COLOR, "Oh no! He can find me! I am afraid! Aaa!");
+            writeColoredText(RED_COLOR, "Oh no! Human can find and catch me! I am afraid! I became red because of that!");
         }
         return hide;
     }
